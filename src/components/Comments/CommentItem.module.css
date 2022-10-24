@@ -1,0 +1,19 @@
+.name:hover {
+  text-decoration: underline;
+}
+.name {
+  font-weight: bold;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: .5rem;
+}
+
+.profile > p {
+  font-size: 1rem;
+  text-align: start;
+  font-style: normal;
+
+}

@@ -1,0 +1,28 @@
+.likes{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    font-size:small;
+    cursor: pointer;
+}
+.action{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    cursor: pointer;
+    color: teal;
+    cursor: pointer;
+  }
+  .action :hover {
+    background-color: #e2ebeb;
+    border-radius: 4px;
+  }
+  .box{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 400;
+      background-color: white;
+      border: 2px solid #000;
+  }
